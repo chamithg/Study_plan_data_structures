@@ -1,7 +1,6 @@
 class Solution:
     def containsDuplicate(self, nums):
         numMap ={}
-        
         for i in nums:
             if i not in numMap:
                 numMap[i]=1
